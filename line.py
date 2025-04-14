@@ -15,8 +15,8 @@ def line():
     print(f'\nDados los siguientes puntos:')
     Y1 = (A * X1) + B
     Y2 = (A * X2) + B
-    print(f'\tP1 {X1}, {Y1}')
-    print(f'\tP2 {X2}, {Y2}')
+    print(f'\tP1 ({X1}, {Y1})')
+    print(f'\tP2 ({X2}, {Y2})')
 
     distancia = (X2 - X1)**2 + (Y2 - Y1)**2
     distancia1 = distancia ** (1/2)
